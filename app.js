@@ -12,5 +12,5 @@ app.use(express.json());
 app.use('/', require('./router'));
 
 app.listen(puerto, ()=>{
-    console.log("Aplicación corriendo en puerto " + puerto);
+    console.log("Aplicación corriendo en el puerto " + puerto);
 });
